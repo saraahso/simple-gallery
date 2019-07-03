@@ -1,5 +1,5 @@
 <?php 
-$title = get_option("title");
+        $title = get_option("title");
 ?>
 
 <div class="wrap postbox teste">
@@ -9,8 +9,7 @@ $title = get_option("title");
  
 <form method="post" action="options.php">
 
-        <br>
-        <h4> Check the boxes to customize your plugin<h4>
+        <p> Check the boxes to customize your plugin<p>
         <label>
                 <input type="checkbox" value="1" id="title" name="title"
                 <?php if($title == 1) echo 'checked' ?>/> Show Title on hover
