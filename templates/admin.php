@@ -13,7 +13,7 @@ $title = get_option("title");
         <h4> Check the boxes to customize your plugin<h4>
         <label>
                 <input type="checkbox" value="1" id="title" name="title"
-                <?php if($title == 1) echo 'checked' ?>/> Show Title
+                <?php if($title == 1) echo 'checked' ?>/> Show Title on hover
         </label>
         
  
